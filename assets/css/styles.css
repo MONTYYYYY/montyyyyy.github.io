@@ -342,7 +342,7 @@ body.light-theme {
     hsla(var(--first-hue), var(--sat), var(--lig), 0.1)
   );
 
-  border-radius: 10rem 10rem 1rem 1rem;
+  border-radius: 1rem 1rem 1rem 1rem;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -1102,7 +1102,6 @@ body.light-theme {
 
   .home__handle {
     width: 290px;
-    height: 400px;
   }
 
   .home__img {
