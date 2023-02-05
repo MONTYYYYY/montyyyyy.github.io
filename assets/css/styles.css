@@ -251,7 +251,7 @@ body.light-theme {
 
 .nav__menu {
   position: fixed;
-  bottom:3.8rem;
+  bottom:1rem;
   background-color: hsla(var(--second-hue), 32%, 16%, 0.8);
   width: 90%;
   border-radius: 4rem;
@@ -968,6 +968,12 @@ body.light-theme {
 
   .work__img {
     width: 165px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .nav__menu {
+    bottom:3.6rem;
   }
 }
 
