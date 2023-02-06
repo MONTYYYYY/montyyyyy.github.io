@@ -1250,9 +1250,4 @@ body.light-theme {
     background-position: 300% center;
   }
 }
-
-.calendly-badge-widget { 
-  right: auto !important; 
-  left: 20px !important; 
-  } 
 }
