@@ -15,25 +15,40 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
     <meta name="theme-color" content="##dfd0c0">
-    <!-- Calendly badge widget begin -->
-        <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/montlamedi', text: 'Schedule time with me', color: '#0a121e', textColor: '#FCFBF4', branding: true }); }</script>
-    <!-- Calendly badge widget end -->
     <meta name="keywords" content="React Developer, Next js, Software engineer, Montlamedi Maikano, Front End, Developer" >.
     <meta name="author" content="Montlamedi Maikano">
 
     <meta name="description" content="Experienced Software Engineer with a demonstrated history of working in the financial services and travel industry in fast-paced and collaborative environments. Skilled in React, NodeJS, and TypeScript. Strong engineering professional with a B.S.C (Hon.) Computer Science and B.S.C Business Computing from the University of Cape Town (South Africa)." />
     <!--=============== BOXICONS ===============-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css?font-display:swap' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet' fetchpriority="high" >
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" fetchpriority="high" >
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css" fetchpriority="high">
 
     <title> Montlamedi Maikano - Front End developer </title>
+
+        <!--=============== SCROLLREVEAL ===============-->
+
+    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+
+   <!-- Calendly badge widget begin -->
+        <link fetchpriority="low"  href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/montlamedi', text: 'Schedule time with me', color: '#0a121e', textColor: '#FCFBF4', branding: true }); }</script>
+    <!-- Calendly badge widget end -->
 </head>
 
 <body>
@@ -605,20 +620,6 @@
             </span>
         </div>
     </footer>
-
-    <!--=============== SCROLLREVEAL ===============-->
-
-    <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
-
-    <!--=============== SWIPER JS ===============-->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-
-    <!--=============== MIXITUP FILTER ===============-->
-    <script src="assets/js/mixitup.min.js"></script>
-
-    <!--=============== MAIN JS ===============-->
-    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
