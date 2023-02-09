@@ -378,6 +378,10 @@ body.light-theme {
   transition: 0.4s;
 }
 
+.calendly-badge-widget { 
+  left: 0 !important; 
+} 
+
 .home__social-link:hover {
   background-color: var(--first-color);
   color: #ffffff;
@@ -1024,6 +1028,10 @@ body.light-theme {
     justify-content: center;
   }
 
+  .calendly-badge-widget { 
+    left: 0 !important; 
+  } 
+
   .services__modal-content {
     width: 500px;
     padding: 4.5rem 2.5rem 2.5rem;
@@ -1062,31 +1070,9 @@ body.light-theme {
   .contact__form {
     width: 340px;
   }
-  /* .contact__info {
-    grid-template-columns: 350px;
-    justify-content: center;
-  }
-
-  .contact__form {
-    width: 360px;
-    margin: 0 auto;
-  } */
 }
 
-/* @media screen and (min-width: 767px) {
-  /* .work__container {
-    grid-template-columns: repeat(2, max-content);
-  } */
 
-/* .contact__info {
-    grid-template-columns: 300px;
-  }
-
-  .contact__container {
-    grid-template-columns: repeat(2, 325px);
-    justify-content: center;
-  }
-} */
 
 /* For large devices */
 @media screen and (min-width: 992px) {
