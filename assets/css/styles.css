@@ -237,6 +237,7 @@ body.light-theme {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 9999;
 }
 
 .nav__logo {
@@ -379,7 +380,8 @@ body.light-theme {
 }
 
 .calendly-badge-widget { 
-  left: 0 !important; 
+  left: 0 !important;
+  width: fit-content;
 } 
 
 .home__social-link:hover {
