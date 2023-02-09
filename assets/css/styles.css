@@ -474,6 +474,7 @@ body.light-theme {
 }
 
 .about__description {
+  font-size: 0.8rem;
   margin-bottom: 2rem;
 }
 
@@ -532,7 +533,7 @@ body.light-theme {
 /*=============== SERVICES ===============*/
 .services__container {
   grid-template-columns: repeat(2, 1fr);
-  gap: 1.5rem;
+  gap: 1.2rem;
   padding-top: 1rem;
 }
 
