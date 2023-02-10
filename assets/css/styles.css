@@ -133,6 +133,21 @@ img {
   color: var(--first-color);
 }
 
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
 /*========== Variables light theme ==========*/
 body.light-theme {
   --title-color: hsl(var(--second-hue), 15%, 15%);
@@ -358,6 +373,7 @@ body.light-theme {
   align-items: flex-end;
   justify-content: center;
   overflow: hidden;
+  animation: float 6.5s ease-in-out infinite;
 }
 
 .home__button {
