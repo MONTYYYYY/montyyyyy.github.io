@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--=============== FAVICON ===============-->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/apple-touch-icon.png">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet' rel="preload" as="font" >
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicons/pic.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicons/pic.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicons/pic.png">
     <link rel="manifest" href="assets/favicons/site.webmanifest">
@@ -17,16 +18,16 @@
     <meta name="theme-color" content="##dfd0c0">
     <meta name="keywords" content="React Developer, Next js, Software engineer, Montlamedi Maikano, Front End, Developer" >.
     <meta name="author" content="Montlamedi Maikano">
+    <meta http-equiv="Cache-control" content="public">
+
 
     <meta name="description" content="Experienced Software Engineer with a demonstrated history of working in the financial services and travel industry in fast-paced and collaborative environments. Skilled in React, NodeJS, and TypeScript. Strong engineering professional with a B.S.C (Hon.) Computer Science and B.S.C Business Computing from the University of Cape Town (South Africa)." />
     <!--=============== BOXICONS ===============-->
-    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet' fetchpriority="high" >
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css"fetchpriority="high" >
 
     <!--=============== CSS ===============-->
-    <link rel="stylesheet" href="assets/css/styles.css" fetchpriority="high">
+    <link rel="stylesheet" rel="preload" href="assets/css/styles.css" fetchpriority="high">
 
     <title> Montlamedi Maikano - Front End developer | Software Engineer </title>
 
@@ -44,24 +45,28 @@
                     <li class="nav__item ">
                         <a href="#home" class="nav__link">
                             <i class='bx bx-home'></i>
+                            <span class="sr-only">home</span>
                         </a>
                     </li>
 
                     <li class="nav__item ">
                         <a href="#about" class="nav__link">
                             <i class='bx bx-user'></i>
+                            <span class="sr-only">about</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#skills" class="nav__link">
                             <i class='bx bx-book'></i>
+                            <span class="sr-only">skills</span>
                         </a>
                     </li>
 
                     <li class="nav__item">
                         <a href="#work" class="nav__link">
                             <i class='bx bx-briefcase-alt-2'></i>
+                            <span class="sr-only">work</span>
                         </a>
                     </li>
                 </ul>
@@ -81,8 +86,8 @@
                 <div class="home__data">
                     <span class="home__greeting">Hi there, I'm</span>
                     <h1 class="home__name">Montlamedi Maikano</h1>
-                    <h3 class="home__education">Front End Engineer (React / Next.js/ Node.js/ Typescript)</h3>
-                    <h3 class="home__education">Based in Cape Town (South Africa)</h3>
+                    <h2 class="home__education">Front End Engineer (React / Next.js/ Node.js/ Typescript)</h2>
+                    <h2 class="home__education">Based in Cape Town (South Africa)</h2>
 
                     <div class="home__button">
                         <a href="#about" class="button">About</a>
@@ -90,15 +95,17 @@
                 </div>
 
                 <div class="home__handle">
-                    <img src="assets/img/pic.png" alt="" class="home__img">
+                    <img height="220" width="220" src="assets/img/pic.png" alt="montlamedi" loading="lazy" class="home__img">
                 </div>
 
                 <div class="home__social">
                     <a href="https://www.linkedin.com/in/montlamedi-maikano-7a9b16112/" target="_blank" class="home__social-link linkedin">
                         <i class='bx bxl-linkedin'></i>
+                        <span class="sr-only">linkedin</span>
                     </a>
                     <a href="https://github.com/MONTYYYYY" target="_blank" class="home__social-link github">
                         <i class='bx bxl-github'></i>
+                        <span class="sr-only">github</span>
                     </a>
                 </div>
 
@@ -115,7 +122,7 @@
             <h2 class="section__title">About Me</h2>
 
             <div class="about__container container grid">
-                <img src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="" class="about__img">
+                <img width="300" height="300" src="https://images.pexels.com/photos/177598/pexels-photo-177598.jpeg?auto=compress&cs=tinysrgb&w=300&h=300&dpr=2" loading="lazy" alt="laptop" class="about__img">
 
                 <div class="about__data">
                     <div class="about__info">
@@ -535,7 +542,7 @@
 
             <div class="work__container container grid">
                 <div class="work__card mix web">
-                    <img src="assets/img/smart-tv.png" alt="" class="work__img">
+                    <img height="100%" width="100%" src="assets/img/smart-tv.png" loading="lazy" alt="smart-tv" class="work__img">
 
                     <h3 class="work__title">Photo Gallery App</h3>
                     <div style="display: flex; justify-content: space-between;">
@@ -550,7 +557,7 @@
                 </div>
 
                 <div class="work__card mix web">
-                    <img src="assets/img/offices.png" alt="" class="work__img">
+                    <img height="100%" width="100%" src="assets/img/offices.png" alt="offices" loading="lazy" class="work__img">
 
                     <h3 class="work__title">Offices</h3>
 
@@ -571,7 +578,7 @@
     <!--=============== FOOTER ===============-->
     <footer class="footer">
         <div class="footer__container container">
-            <h1 class="footer__title">Montlamedi</h1>
+            <h2 class="footer__title">Montlamedi</h2>
 
             <ul class="footer__list">
 
@@ -593,22 +600,24 @@
                 <li class="footer__social-item">
                     <a href="#" target="_blank" class="footer__social-link">
                         <i class='bx bxl-linkedin footer__social-icon'></i>
+                        <span class="sr-only">linkedin</span>
                     </a>
                 </li>
             </ul>
 
             <span class="footer__copy">
-                &#169; <script>document.write(new Date().getFullYear())</script>. All rights reserved.
+                &#169; 2023. All rights reserved.
             </span>
         </div>
     </footer>
 
-            <!--=============== SCROLLREVEAL ===============-->
+    <!--=============== SCROLLREVEAL ===============-->
 
     <!-- <script src="assets/js/scrollreveal.min.js"></script> -->
     <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 
     <!--=============== SWIPER JS ===============-->
+
     <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== MIXITUP FILTER ===============-->
