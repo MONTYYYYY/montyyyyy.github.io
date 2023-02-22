@@ -1238,6 +1238,12 @@ body.light-theme {
     border-radius: 0.5rem;
   }
 
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--first-color);
+  transform: translateY(-0.25em);
+}
+
 .animate-charcter
 {
   text-transform: uppercase;
